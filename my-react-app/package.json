@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/Ankit25akofficial/React-timer-frame/edit/master/my-react-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -23,5 +24,30 @@
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
     "vite": "^7.2.4"
+  }
+}
+
+
+{
+  "name": "my-react-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/my-react-app",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "gh-pages": "^6.0.0",
+    "vite": "^4.4.0"
   }
 }
